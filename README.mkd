@@ -1,0 +1,3 @@
+MongoDB Database Files
+------------
+This is a series of files that we are using for MongoDB exercises in 67-311: Database Design and Implementation.  This course is being taught at Carnegie Mellon University in the Information Systems Department during the fall of 2014.  The instructions for the labs can be found on the course website at [67311.cmuis.net](http://67311.cmuis.net/labs).  
