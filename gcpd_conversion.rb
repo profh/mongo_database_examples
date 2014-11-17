@@ -30,7 +30,7 @@ end
 
 # put the data into a collection called 'cases'
 collection = mdb['cases']  # create a collection callled 'cases' within gcpd_cases db
-51.times do |r|
+case_data.size.times do |r|
   # extract the data
   case_id = case_data[r]['case_id'].to_i
   crime = case_data[r]['crime_name']
