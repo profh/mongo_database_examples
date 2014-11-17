@@ -21,7 +21,7 @@ end
 
 # process that data
 officer_collection = mdb['officers']  
-12.times do |r|
+officer_data.count.times do |r|
   # puts "#{officer_data[r]}"
   # extract the data
   officer_number = officer_data[r]['officer_id'].to_i
@@ -71,7 +71,7 @@ end
 
 # put the data into a collection called 'cases'
 collection = mdb['cases']  # create a collection callled 'cases' within gcpd db
-51.times do |r|
+case_data.count.times do |r|
   # extract the data
   case_id = case_data[r]['case_id'].to_i
   crime = case_data[r]['crime_name']
